@@ -1,0 +1,135 @@
+@media screen and (max-width:960px) {
+
+
+  /* ヘッダー */
+  .header-wrapper {
+    height: 50vh;
+  }
+
+  .header-top {
+    height: 40px;
+    padding: 15px 20px;
+  }
+
+  .header-top nav {
+    display: none;
+  }
+
+  .header-top h1 img {
+    height: 40px;
+  }
+
+  .header-top div {
+    display: flex;
+    float: right;
+    height: 40px;
+    align-items: flex-end;
+    /* width: 50%; */
+  }
+
+  .header-wrapper h2 {
+    font-size: 24px;
+    top: 25%;
+  }
+
+
+  /* お知らせ */
+  .news {
+    padding: 50px 20px;
+  }
+
+  .section-title h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .news-information {
+    /* text-align: left; */
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .news-item a {
+    display: block;
+    text-align: left;
+  }
+
+  .news-item div {
+    margin-bottom: 15px;
+  }
+
+  .news-item p:first-child {
+    display: inline-block;
+    font-size: 13px;
+  }
+
+  .news-item p:nth-child(2) {
+    display: inline-block;
+    font-size: 11px;
+    /* margin: 0 30px 15px 30px; */
+  }
+
+  .news-item p:last-child {
+    font-size: 18px;
+  }
+
+
+  /* 施工事例 */
+  .section-title h2 {
+    margin-bottom: 30px;
+  }
+
+
+  .example {
+    padding: 50px 20px;
+  }
+
+  .example-item {
+    display: block;
+  }
+
+  .example-item > div {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .example-item p:first-child {
+    max-width: 700px;
+  }
+
+  .example-item div p img {
+    width: 100%;
+  }
+
+  .example div:last-child {
+    margin-top: 0;
+  }
+
+
+  /* フッターリンク */
+  .photo-links {
+    padding-top: 50px;
+    flex-direction: column;
+  }
+
+
+  /* フッター */
+  .footer {
+    flex-direction: column-reverse;
+    padding: 50px 0 0 0;
+    margin-bottom: 30px;
+  }
+
+  .footer ul {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .footer li {
+    margin-bottom: 30px;
+  }
+
+
+
+
+}
