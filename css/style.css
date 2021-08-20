@@ -41,7 +41,7 @@ a:hover {
 /* header */
 
 .header-wrapper {
-  background-image: url(/images/main.png);
+  background-image: url(../images/main.png);
   height: 80vh;
   background-size: cover;
   /* 元画像の縦横比は保持しつつ、要素をちょうどよく覆うサイズに変更 */
